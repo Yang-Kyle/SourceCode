@@ -1,0 +1,21 @@
+
+<b>Problem Description</b>
+　　We call a number <i>interesting</i>, if and only if:
+　　1. Its digits consists of only 0, 1, 2 and 3, and all these digits occurred at least once.
+　　2. Inside this number, all 0s occur before any 1s, and all 2s occur before any 3s.
+　　Therefore, the smallest interesting number according to our definition is 2013. There are two more interseting number of 4 digits: 2031 and 2301.
+　　Your task is to calculate the number of interesting numbers of exactly <i>n</i> digits. As the answer might be very large, you only need to output the answer modulo 1000000007.
+<b>Input Format</b>
+　　The input has one line consisting of one positive integer <i>n</i> (4 ＋ <i>n</i> ＋ 10^15).
+<b>Output Format</b>
+　　The output has just one line, containing the number of interesting numbers of exactly <i>n</i> digits, modulo 1000000007.
+<b>Input Sample</b>
+　　4
+<b>Output Sample</b>
+　　3
+
+
+
+
+
+
