@@ -1,0 +1,20 @@
+
+<pre class='pddata'>
+<span style="font-size: medium"><span style="font-family: Times New Roman"><span lang="EN-US"><span style="font: 7pt 'Times New Roman'">编写一程序，接受用户输入的两个整数，并计算它们的和、差、积、商，程序运行时候输入输出例子如下所示。
+</pre>
+<pre class='pddata'>
+<span style="font-size: medium"><span style="font-family: Times New Roman"><span lang="EN-US"><span style="font: 7pt 'Times New Roman'">样例输入：3  5
+</pre>
+<pre class='pddata'>
+<span style="font-size: medium"><span style="font-family: Times New Roman"><span lang="EN-US"><span style="font: 7pt 'Times New Roman'">样例输出：3+5=83-5=-23*5=153/5=0
+</pre>
+<pre class='pddata'>
+<span style="font-size: medium"><span style="font-family: Times New Roman"><span style=""><span lang="EN-US" style="mso-fareast-font-family: 'Times New Roman'"><span style="mso-list: Ignore"><font face="Times New Roman"><span style="font: 7pt 'Times New Roman'">注意：输出要严格按照+-*/的顺序，分四行输出，而且中间不能有空格，否则系统会判为错误。</font>
+</pre>
+
+
+
+
+
+
+
