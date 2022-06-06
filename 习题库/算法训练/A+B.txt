@@ -1,0 +1,8 @@
+
+问题描述　　Given two integers <i>A</i> and <i>B</i>, your task is to output their sum, <i>A</i>+<i>B</i>.输入格式　　The input contains of only one line, consisting of two integers <i>A</i> and <i>B</i>. (0 ≤ A,B ≤ 1 000)输出格式　　The output should contain only one number that is <i>A</i>+<i>B</i>.样例输入1 1样例输出2
+
+
+
+
+
+

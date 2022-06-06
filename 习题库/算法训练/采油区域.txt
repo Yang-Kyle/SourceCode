@@ -1,0 +1,107 @@
+
+　　采油区域　　Siruseri政府决定将石油资源丰富的Navalur省的土地拍卖给私人承包商以建立油井。被拍卖的整块土地为一个矩形区域，被划分为<i>M</i>×<i>N</i>个小块。
+　　Siruseri地质调查局有关于Navalur土地石油储量的估测数据。这些数据表示为<i>M</i>×<i>N</i>个非负整数，即对每一小块土地石油储量的估计值。
+　　为了避免出现垄断，政府规定每一个承包商只能承包一个由<i>K</i>×<i>K</i>块相连的土地构成的正方形区域。
+　　AoE石油联合公司由三个承包商组成，他们想选择三块互不相交的<i>K</i>×<i>K</i>的区域使得总的收益最大。
+　　例如，假设石油储量的估计值如下：
+
+<table cellspacing=0 cellpadding=2px style='border-collapse:collapse;' class='table table-striped table-horver'><tbody><tr  style='border:solid 1.0pt'><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td></tr><tr  style='border:solid 1.0pt'><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td></tr><tr  style='border:solid 1.0pt'><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td></tr><tr  style='border:solid 1.0pt'><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td></tr><tr  style='border:solid 1.0pt'><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td></tr><tr  style='border:solid 1.0pt'><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td></tr><tr  style='border:solid 1.0pt'><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td><td valign="top" style='border:solid 1.0pt'>8
+</td></tr><tr  style='border:solid 1.0pt'><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>9
+</td><td valign="top" style='border:solid 1.0pt'>9
+</td><td valign="top" style='border:solid 1.0pt'>9
+</td></tr><tr  style='border:solid 1.0pt'><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>1
+</td><td valign="top" style='border:solid 1.0pt'>9
+</td><td valign="top" style='border:solid 1.0pt'>9
+</td><td valign="top" style='border:solid 1.0pt'>9
+</td></tr></tbody></table>
+
+　　如果<i>K</i> = 2, AoE公司可以承包的区域的石油储量总和为100, 如果<i>K</i> = 3, AoE公司可以承包的区域的石油储量总和为208。
+　　AoE公司雇佣你来写一个程序，帮助计算出他们可以承包的区域的石油储量之和的最大值。输入格式　　输入第一行包含三个整数<i>M</i>, <i>N</i>, <i>K</i>，其中<i>M</i>和<i>N</i>是矩形区域的行数和列数，<i>K</i>是每一个承包商承包的正方形的大小（边长的块数）。接下来<i>M</i>行，每行有<i>N</i>个非负整数表示这一行每一小块土地的石油储量的估计值。输出格式　　输出只包含一个整数，表示AoE公司可以承包的区域的石油储量之和的最大值。数据规模和约定　　数据保证<i>K</i>≤<i>M</i>且<i>K</i>≤<i>N</i>并且至少有三个<i>K</i>×<i>K</i>的互不相交的正方形区域。其中30%的输入数据，<i>M</i>, <i>N</i>≤ 12。所有的输入数据, <i>M</i>, <i>N</i>≤ 1500。每一小块土地的石油储量的估计值是非负整数且≤ 500。样例输入9 9 3
+1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1
+1 8 8 8 8 8 1 1 1
+1 8 8 8 8 8 1 1 1
+1 8 8 8 8 8 1 1 1
+1 1 1 1 8 8 8 1 1
+1 1 1 1 1 1 8 8 8
+1 1 1 1 1 1 9 9 9
+1 1 1 1 1 1 9 9 9样例输出208
+
+
+
+
+
+

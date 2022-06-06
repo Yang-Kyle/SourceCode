@@ -1,0 +1,11 @@
+
+问题描述<img src="/RequireFile.do?fid=5DyfBRyG" width="467" height="69" />样例输入一个满足题目要求的输入范例。
+3 10样例输出与上面的样例输入对应的输出。
+<img src="/RequireFile.do?fid=t7jLy5DD" width="643" height="54" />数据规模和约定　　输入数据中每一个数的范围。
+　　例：结果在int表示时不会溢出。
+
+
+
+
+
+
